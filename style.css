@@ -13,6 +13,7 @@ html {
 }
 body {
     font-size: 1.6rem;
+    background-color: darkgray;
 }
 
 /*------------ header ------------*/
@@ -22,14 +23,37 @@ header{
     left: 0;
     width: 100%;
     padding: 1.5% 5%;
-    background: green;
+    background: #0e2f75;
     z-index: 100;
 }
 
 .navbar a {
     font-size: 1.8rem;
-    color: #fff;
+    color: #22e6dc;
     text-decoration: none;
     font-weight: 500;
     padding: 1%;
+}
+
+/*------------ home ------------*/
+.section {
+    position: relative;
+}
+.home {
+    height: 100vh;
+    margin-top: 5%;
+}
+
+.conteiner-home {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5%;
+    padding: 2%;
+}
+.conteiner-home-text {
+    margin-right: 2%;
+    margin-top: 5%;
+}
+.conteiner-home-text p {
+    text-align: justify;
 }
